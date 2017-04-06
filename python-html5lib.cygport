@@ -1,0 +1,15 @@
+inherit python-wheel
+
+NAME="python-html5lib"
+VERSION=0.999999999
+RELEASE=1
+CATEGORY="Python"
+SUMMARY="Python WHATWG HTML parser"
+DESCRIPTION="html5lib is a pure-python library for parsing HTML. It is designed
+to conform to the WHATWG HTML specification, as is implemented by all major web
+browsers."
+
+ARCH=noarch
+
+python2_html5lib_REQUIRES="python2-chardet"
+python3_html5lib_REQUIRES="python3-chardet"
