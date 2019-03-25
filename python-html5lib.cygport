@@ -1,7 +1,7 @@
 inherit python-wheel
 
 NAME="python-html5lib"
-VERSION=0.999999999
+VERSION=1.0.1
 RELEASE=1
 CATEGORY="Python"
 SUMMARY="Python WHATWG HTML parser"
@@ -11,5 +11,6 @@ browsers."
 
 ARCH=noarch
 
-python2_html5lib_REQUIRES="python2-chardet"
-python3_html5lib_REQUIRES="python3-chardet"
+python27_html5lib_REQUIRES="python27-chardet"
+python36_html5lib_REQUIRES="python36-chardet"
+python37_html5lib_REQUIRES="python37-chardet"
